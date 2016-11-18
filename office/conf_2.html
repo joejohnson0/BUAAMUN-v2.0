@@ -1,0 +1,95 @@
+<div id="conf_2">
+
+    <div class="row">
+    	<div class="col-md-10 col-md-offset-1">
+		    <div class="progress">
+		        <div class="progress-bar progress-bar-success" style="width: 33.3333%">
+		            一：选择会议及委员会
+		        </div>
+		        <div class="progress-bar progress-bar-success" style="width: 33.3333%">
+		            二：填写个人信息
+		        </div>
+		        <div class="progress-bar progress-bar-striped" style="width: 33.3334%">
+		            三：报名成功
+		        </div>
+		    </div>
+		</div>
+	</div>
+
+	<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="alert alert-info" role="alert">
+      <p>第二步：请填写完整有效个人信息；</p>
+      </div>
+    </div>
+  </div>
+
+	<div class="col-md-10 col-md-offset-1">
+	  <div class="well row">
+
+	    <div class="form-group has-feedback form-time col-md-4">
+	      <label class="control-label">姓名</label>
+	      <input type="text" id="name" class="form-control content" required="required">
+	    </div>
+
+	    <div class="form-group has-feedback form-time col-md-4">
+	      <label class="control-label">学号</label>
+	      <input type="text" id="id-no" class="form-control content" required="required">
+	    </div>
+
+		<div class="form-group has-feedback form-type col-md-4">
+	      <label class="control-label">性别</label>
+	      <select id="gender" class="form-control type">
+	        <option value="男" selected>男</option>
+	        <option value="女">女</option>
+	      </select>
+	    </div>
+
+	    <div class="form-group has-feedback form-time col-md-4">
+	      <label class="control-label">手机号码</label>
+	      <input id="contact" type="text" class="form-control content" required="required">
+	    </div>        
+
+	    <div class="form-group has-feedback form-time col-md-4">
+	      <label class="control-label">邮箱</label>
+	      <input id="email" type="email" class="form-control content">
+	    </div>
+
+	    <div class="form-group has-feedback form-time col-md-4">
+	      <label class="control-label">QQ帐号</label>
+	      <input id="qq" type="text" class="form-control content">
+	    </div>
+
+	    <div class="form-group has-feedback form-type col-md-2">
+	      <label class="control-label">是否有模联经历</label>
+	      <select id="exp" class="form-control type">
+	        <option value="是" selected>是</option>
+	        <option value="否">否</option>
+	      </select>
+	    </div>
+
+	    <div class="form-group has-feedback form-time col-md-4">
+	      <label class="control-label">设置报名密码</label>
+	      <input id="psw1" type="password" class="form-control password" required="required">
+	    </div>
+
+	    <div class="form-group has-feedback form-time col-md-4">
+	      <label class="control-label">确认报名密码</label>
+	      <input id="psw2" type="password" class="form-control password" required="required">
+	    </div>
+
+	  </div>
+	</div>
+
+	<div class="row">
+		<center>
+	    <div class="col-md-2 col-md-offset-4">      
+	      	<button onclick="back()" type="button" class="btn btn-lg btn-danger">上一步</button>
+	     </div>
+	     <div class="col-md-2">
+	      	<button onclick="signup()" type="button" class="btn btn-lg btn-success">确认报名</button>	   
+	    </div>
+		</center>
+	 </div>
+
+</div>

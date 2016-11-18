@@ -1,0 +1,116 @@
+<script src="http://cdn.bootcss.com/bootstrap-select/1.6.3/js/bootstrap-select.js"></script>
+
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap-select/1.6.3/css/bootstrap-select.css">
+                
+<div class="col-md-12 templatemo_who">
+
+<div class="templatemo_hometop_title">北航模联办公系统-招新报名</div>
+<form>
+
+<div class="row">
+   <div class="form-group">
+      <label for="firstname" class="col-md-4 control-label" align="right">姓名</label>
+      <div class="col-md-4">
+         	<input type="text" id="name" size="10" maxlength="8" class="form-control" placeholder="必填项" required="required" />
+      </div>      
+   </div><div class="col-md-6 col-md-offset-4"></div>
+</div>
+
+
+<div class="row">
+   <div class="form-group">
+   <label for="firstname" class="col-md-4 control-label">性别</label>
+   <div class="col-md-4">
+	   <label class="checkbox-inline">
+	      <input type="radio" id="gender" name="gender" value="男" checked="checked" /> 男
+	   </label>
+	   <label class="checkbox-inline">
+	      <input type="radio" id="gender" name="gender" value="女" /> 女
+	   </label>
+	</div>
+	</div><div class="col-md-6 col-md-offset-4"></div>
+   <div class="form-group">
+      <label for="firstname" class="col-md-4 control-label">学号</label>
+      <div class="col-md-4">
+         	<input type="text" id="id-no" size="10" maxlength="8" class="form-control" placeholder="必填项" required="required" />
+      </div>      
+   </div><div class="col-md-6 col-md-offset-4"></div>
+</div>
+
+
+<div class="row">
+   <div class="form-group">
+      <label for="firstname" class="col-md-4 control-label">手机</label>
+      <div class="col-md-4">
+         	<input type="text" id="contact" size="11" maxlength="11" class="form-control" placeholder="必填项" required="required" />
+      </div>      
+   </div><div class="col-md-6 col-md-offset-4"></div>
+</div>
+
+<div class="row">
+   <div class="form-group">
+      <label for="firstname" class="col-md-4 control-label">Email</label>
+      <div class="col-md-4">
+         	<input type="email" id="email" size="20" maxlength="20" class="form-control" placeholder="必填项" required="required" />
+      </div>      
+   </div><div class="col-md-6 col-md-offset-4"></div>
+</div>
+
+<div class="row">
+   <div class="form-group">
+      <label for="firstname" class="col-md-4 control-label">QQ账号</label>
+      <div class="col-md-4">
+         	<input type="text" id="qq" size="20" maxlength="20" class="form-control" />
+      </div>      
+   </div><div class="col-md-6 col-md-offset-4"></div>
+</div>
+
+  
+<div class="row">
+   <div class="form-group">
+	<label for="firstname" class="col-md-4 control-label">部门志愿</label>
+   <div class="form-group has-feedback form-type col-sm-4">	
+	    <select class="form-control type" id="department">
+	        <option value="" selected>请选择...</option>
+	        <option value="培训部">培训部</option>
+			<option value="会务部">会务部</option>
+			<option value="宣传部">宣传部</option>
+			<option value="外联部">外联部</option>
+			<option value="会长助理">会长助理</option>
+	    </select>
+	</div><div class="col-md-6 col-md-offset-4"></div>
+</div>
+
+
+<div class="row">
+   <div class="form-group">
+   <label for="firstname" class="col-md-4 control-label">是否有模联经历</label>
+   <div class="col-md-4">
+	   <label class="checkbox-inline">
+	      <input type="radio" id="exp" name="experience" value="否" checked="checked" /> 否
+	   </label>
+	   <label class="checkbox-inline">
+	      <input type="radio" id="exp" name="experience" value="是" /> 是
+	   </label><div class="col-md-6 col-md-offset-4"></div>
+	</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="form-group">
+	<label for="firstname" class="col-md-4 control-label">个人陈述</label>
+	<div class="col-md-4">
+		<textarea class="form-control" id="ps" rows="6"></textarea>
+	</div>
+	</div><div class="col-md-6 col-md-offset-4"></div>
+</div>
+<div id="alert"></div>
+	
+   <div class="col-md-12"><button type="button" onclick="check()" class="btn btn-primary btn-lg">提交</button></div>
+</form>
+
+</div>
+<div class="col-md-12">
+<a href="#"><div class="templatemo_readmore gradient" id="default_button" onclick="window.location.reload()">返回</div></a>
+</div>
